@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Conversion</title>
+    <link rel="icon" type="image/png" href="assets/img/heather.png" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="grid">
+        <h1 class="grid-item">Height Conversion</h1>
+        <div class="grid-item">
+            <label for="feet">
+                <h3>Feet</h3>
+            </label>
+            <input type="number" step="1" min="0" value="0" name="feet" id="feet" class="feet">
+        </div>
+        <div class="grid-item">
+            <label for="inches">
+                <h3>Inches</h3>
+            </label>
+            <input type="number" step="1" min="0" max="11" value="0" name="inches" id="inches" class="inches">
+        </div>
+        <div class="grid-item">
+            <button class="convert">
+                <h3>convert</h3>
+            </button>
+        </div>
+        <div class="grid-item">
+            <label for="meters">
+                <h3>Meters</h3>
+            </label>
+            <input type="number" step="0.01" min="0" value="0" readonly name="meters" id="meters" class="meters">
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

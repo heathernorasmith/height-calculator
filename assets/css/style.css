@@ -1,0 +1,94 @@
+/* fonts are located at <link rel="stylesheet" href="assets/css/type">
+*/
+
+h1 {
+  font-size: 23.5pt;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 500;
+  color: rgb(68, 70, 91);
+}
+
+h2 {
+  font-size: 16pt;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 500;
+  color: rgb(68, 70, 91);
+}
+
+h3 {
+  font-size: 14pt;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 500;
+  color: rgb(68, 70, 91);
+}
+
+h4 {
+  font-size: 10pt;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 500;
+  text-align: 500;
+  text-transform: allcaps;
+  color: rgb(68, 70, 91);
+}
+
+p {
+  font-size: 12pt;
+  font-family: 'futura-pt', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(68, 70, 91);
+}
+
+/* common
+================================================== */
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(252, 236, 206);
+}
+
+.grid {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+}
+
+.grid-item {
+  grid-area: auto;
+  align-self: center;
+  justify-self: center;
+}
+
+.feet {
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 1em;
+  text-align: right;
+}
+
+.inches {
+  height: 50px;
+  cursor: pointer;
+  font-size: 1em;
+  text-align: right;
+  width: 250px;
+}
+
+.meters {
+  height: 50px;
+  font-size: 1em;
+  text-align: right;
+  width: 250px;
+}
+.convert {
+  background: linear-gradient(to bottom, #f9f9f9 5%, #bebdbd 100%);
+  cursor: pointer;
+  width: 258px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 58px;
+}
+
+
